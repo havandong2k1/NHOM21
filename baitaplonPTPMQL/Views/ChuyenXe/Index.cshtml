@@ -1,0 +1,65 @@
+@model IEnumerable<baitaplonPTPMQL.Models.ChuyenXe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Thông tin chuyến xe</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenChuyenXe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayDi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiemDi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiemDen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaiXe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BangGia)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenChuyenXe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayDi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiemDi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiemDen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaiXe.MaTaiXe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BangGia.GiaID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaChuyenXe">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaChuyenXe">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaChuyenXe">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+@model IEnumerable<baitaplonPTPMQL.Models.VeXe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Bảng vé Xe</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenVe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenXe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhanVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KhachHang)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenVe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenXe.XeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhanVien.MaNhanVien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhachHang.MaKhachHang)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaVe">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaVe">Xem</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaVe">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
