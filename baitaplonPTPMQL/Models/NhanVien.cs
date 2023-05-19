@@ -13,7 +13,7 @@ namespace baitaplonPTPMQL.Models
         [Required(ErrorMessage ="Tên nhân viên không được bỏ trống")] 
         public string? TenNhanVien {get; set;}
         [Display (Name = "Ngày sinh")]
-        public DateTime Ngaysinh {get; set;}
+        public DateTime? Ngaysinh {get; set;}
         [Display (Name = "Giới tính")]
         public string? TenGioiTinh {get; set;}
         [ForeignKey ("TenGioiTinh")] 

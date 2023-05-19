@@ -225,7 +225,6 @@ C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\ru\Microsoft.Code
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -248,8 +247,6 @@ C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win-arm\
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\obj\Debug\net7.0\baitaplonPTPMQL.csproj.AssemblyReference.cache
@@ -302,3 +299,9 @@ C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\MessagePack.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\MessagePack.Annotations.dll
 C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\EPPlus.dll
+C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll

@@ -19,7 +19,7 @@ namespace baitaplonPTPMQL.Models
         [ForeignKey ("TenGioiTinh")] 
         [Display (Name = "Giới tính")]
         public GioiTinh? GioiTinh {get; set;}
-        [Display (Name = "Địa chỉ")]
+        [Display (Name = "Địa Chỉ")]
         public string? Diachi {get; set;}
         [Display (Name = "Chứng minh nhân dân")]
         [Required(ErrorMessage ="Số chứng minh không được bỏ trống")] 

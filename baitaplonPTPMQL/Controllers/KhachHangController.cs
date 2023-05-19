@@ -48,7 +48,7 @@ namespace baitaplonPTPMQL.Controllers
         // GET: KhachHang/Create
         public IActionResult Create()
         {
-            ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "ID");
+            ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "TenGioiTinh");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace baitaplonPTPMQL.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "ID", khachHang.TenGioiTinh);
+            ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "TenGioiTinh", khachHang.TenGioiTinh);
             return View(khachHang);
         }
 
@@ -82,7 +82,7 @@ namespace baitaplonPTPMQL.Controllers
             {
                 return NotFound();
             }
-            ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "ID", khachHang.TenGioiTinh);
+            ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "TenGioiTinh", khachHang.TenGioiTinh);
             return View(khachHang);
         }
 

@@ -13,6 +13,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.MaKhachHang)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.TenKhachHang)
             </th>
             <th>
@@ -37,13 +40,16 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.MaKhachHang)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.TenKhachHang)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Ngaysinh)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.GioiTinh.ID)
+                @Html.DisplayFor(modelItem => item.GioiTinh.TenGioiTinh)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Diachi)

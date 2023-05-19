@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using baitaplonPTPMQL.Models;
+
 
 namespace baitaplonPTPMQL.Controllers
 {
@@ -49,7 +46,7 @@ namespace baitaplonPTPMQL.Controllers
         // GET: ChuyenXe/Create
         public IActionResult Create()
         {
-            ViewData["GiaID"] = new SelectList(_context.BangGia, "GiaID", "GiaID");
+            ViewData["GiaID"] = new SelectList(_context.BangGia, "GiaID", "GiaVe");
             ViewData["MaTaiXe"] = new SelectList(_context.Set<TaiXe>(), "MaTaiXe", "MaTaiXe");
             return View();
         }
@@ -67,7 +64,7 @@ namespace baitaplonPTPMQL.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GiaID"] = new SelectList(_context.BangGia, "GiaID", "GiaID", chuyenXe.GiaID);
+            ViewData["GiaID"] = new SelectList(_context.BangGia, "GiaID", "GiaVe", chuyenXe.GiaID);
             ViewData["MaTaiXe"] = new SelectList(_context.Set<TaiXe>(), "MaTaiXe", "MaTaiXe", chuyenXe.MaTaiXe);
             return View(chuyenXe);
         }
@@ -170,5 +167,8 @@ namespace baitaplonPTPMQL.Controllers
         {
           return (_context.ChuyenXe?.Any(e => e.MaChuyenXe == id)).GetValueOrDefault();
         }
+       
     }
 }
+
+
