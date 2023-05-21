@@ -7,12 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using baitaplonPTPMQL.Models;
+using baitaplonPTPMQL.Models.Process;
 
 namespace baitaplonPTPMQL.Controllers
 {
     public class KhachHangController : Controller
     {
         private readonly MvcMovieContext _context;
+         private StringProcess strPro = new StringProcess();
 
         public KhachHangController(MvcMovieContext context)
         {
@@ -49,6 +51,14 @@ namespace baitaplonPTPMQL.Controllers
         public IActionResult Create()
         {
             ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "TenGioiTinh");
+            var newnhacungcap = "KH001";
+            var countnhacungcap = _context.KhachHang.Count();
+            if (countnhacungcap > 0)
+            {
+                var MaKH = _context.KhachHang.OrderByDescending(m => m.MaKhachHang).First().MaKhachHang;
+                newnhacungcap = strPro.AutoGenerateCode(MaKH);
+            }
+            ViewBag.newID = newnhacungcap;
             return View();
         }
 
