@@ -18700,6 +18700,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\Views\\TenXe\\Upload.cshtml",
+      "TargetPath": "Views\\TenXe\\Upload.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\Views\\ChuyenXe\\Edit.cshtml",
       "TargetPath": "Views\\ChuyenXe\\Edit.cshtml",
       "FileKind": "mvc"

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj": {
+    "C:\\Users\\Admin\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj",
         "projectName": "baitaplonPTPMQL",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\NHOM21\\baitaplonPTPMQL\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\NHOM21\\baitaplonPTPMQL\\baitaplonPTPMQL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\NHOM21\\baitaplonPTPMQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
