@@ -176,60 +176,6 @@ namespace baitaplonPTPMQL.Controllers
         {
           return (_context.NhanVien?.Any(e => e.MaNhanVien == id)).GetValueOrDefault();
         }
-     private ExcelProcess _excelProcess = new ExcelProcess();
-
-        public async Task<IActionResult> Upload()
-        {
-            return View();
-        }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult>Upload(IFormFile file)
-        {
-            if (file!=null)
-            {
-                string fileExtension = Path.GetExtension(file.FileName);
-                if (fileExtension != ".xls" && fileExtension != ".xlsx")
-                {
-                    ModelState.AddModelError("", "Please choose excel file to upload!");
-                }
-                else
-                {
-                    //rename file when upload to sever
-                    var fileName = DateTime.Now.ToShortTimeString() + fileExtension;
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", fileName);
-                    var fileLocation = new FileInfo(filePath).ToString();
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        //save file to server
-                        await file.CopyToAsync(stream);
-                        //read data from file and write to database
-                        var dt = _excelProcess.ExcelToDataTable(fileLocation);
-                        //dùng vòng lặp for để đọc dữ liệu dạng hd
-                        for (int i = 0; i < dt.Rows.Count; i++)
-                        {
-                            //create a new Student object
-                            var nv = new NhanVien();
-                            //set values for attribiutes
-                            nv.MaNhanVien = dt.Rows[i][0].ToString();
-                            nv.TenNhanVien = dt.Rows[i][1].ToString();
-                            nv.Ngaysinh = Convert.ToDateTime(dt.Rows[i][2].ToString());
-                            nv.TenGioiTinh = dt.Rows[i][3].ToString();
-                            nv.Diachi = dt.Rows[i][4].ToString();
-                            nv.CMND = dt.Rows[i][5].ToString();
-                            nv.SoDienThoai = dt.Rows[i][6].ToString();
-                            //add oject to context
-                            _context.NhanVien.Add(nv);
-                        }
-                        //save to database
-                        await _context.SaveChangesAsync();
-                        return RedirectToAction(nameof(Index));
-                    }
-                }
-            }
-            return View();
-        
     }
- }  
 }
 

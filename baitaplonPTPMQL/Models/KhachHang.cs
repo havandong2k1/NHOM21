@@ -13,6 +13,7 @@ namespace baitaplonPTPMQL.Models
         [Required(ErrorMessage ="Tên khách hàng không được bỏ trống")] 
         public string? TenKhachHang {get; set;}
         [Display (Name = "Ngày sinh")]
+        [DataType(DataType.Date)]
         public DateTime Ngaysinh {get; set;}
         [Display (Name = "Giới tính")]
         public string? TenGioiTinh {get; set;}

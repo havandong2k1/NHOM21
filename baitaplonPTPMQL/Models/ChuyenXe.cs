@@ -11,6 +11,7 @@ namespace baitaplonPTPMQL.Models
         [Display (Name = "Tên chuyến xe")]
         public string? TenChuyenXe {get; set;}
         [Display (Name = "Ngày đi")]
+        [DataType(DataType.Date)]
         public DateTime NgayDi {get; set;}
         [Display (Name = "Điểm đi")]
         public string? DiemDi {get; set;} 

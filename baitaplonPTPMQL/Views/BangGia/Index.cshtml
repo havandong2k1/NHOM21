@@ -7,11 +7,16 @@
 <h1>Bảng giá</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Create New</a><br>
+    <a asp-action="Upload">Upload File</a>
+    
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GiaID)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.GiaVe)
             </th>
@@ -21,6 +26,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaID)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.GiaVe)
             </td>
