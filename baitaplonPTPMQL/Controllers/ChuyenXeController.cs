@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using baitaplonPTPMQL.Models;
+using baitaplonPTPMQL.Models.Process;
 
 
 namespace baitaplonPTPMQL.Controllers
@@ -10,6 +11,7 @@ namespace baitaplonPTPMQL.Controllers
     public class ChuyenXeController : Controller
     {
         private readonly MvcMovieContext _context;
+         private StringProcess strPro = new StringProcess();
 
         public ChuyenXeController(MvcMovieContext context)
         {
@@ -48,6 +50,14 @@ namespace baitaplonPTPMQL.Controllers
         {
             ViewData["GiaID"] = new SelectList(_context.BangGia, "GiaID", "GiaVe");
             ViewData["MaTaiXe"] = new SelectList(_context.Set<TaiXe>(), "MaTaiXe", "MaTaiXe");
+             var newnhacungcap = "CX001";
+            var countnhacungcap = _context.KhachHang.Count();
+            if (countnhacungcap > 0)
+            {
+                var MaCX = _context.ChuyenXe.OrderByDescending(m => m.MaChuyenXe).First().MaChuyenXe;
+                newnhacungcap = strPro.AutoGenerateCode(MaCX);
+            }
+            ViewBag.newID = newnhacungcap;
             return View();
         }
 

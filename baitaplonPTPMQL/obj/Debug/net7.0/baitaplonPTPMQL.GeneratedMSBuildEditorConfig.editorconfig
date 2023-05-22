@@ -9,225 +9,225 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = baitaplonPTPMQL
 build_property.RootNamespace = baitaplonPTPMQL
-build_property.ProjectDir = C:\Users\Admin\Desktop\NHOM21\baitaplonPTPMQL\
+build_property.ProjectDir = C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\NHOM21\baitaplonPTPMQL
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Desktop\NHOM21\baitaplonPTPMQL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0dpYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0dpYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0dpYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0dpYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0dpYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Upload.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/BangGia/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0dpYVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuWGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuWGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuWGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuWGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/ChuyenXe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuWGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/GioiTinh/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Home/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Home/Privacy.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/KhachHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/NhanVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Shared/Error.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpWGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpWGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpWGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpWGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TaiXe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpWGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuWGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuWGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuWGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuWGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuWGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Upload.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/TenXe/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuWGVcVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVYZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVYZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVYZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVYZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/VeXe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVYZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Create.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Delete.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Details.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Edit.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Index.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Xe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/_ViewImports.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/_ViewStart.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/NHOM21/baitaplonPTPMQL/Views/Shared/_Layout.cshtml]
+[C:/Users/ADMIN/Desktop/NHOM21/baitaplonPTPMQL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-086u6m9tzv

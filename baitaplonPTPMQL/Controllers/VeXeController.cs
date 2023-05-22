@@ -7,12 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using baitaplonPTPMQL.Models;
+using baitaplonPTPMQL.Models.Process;
 
 namespace baitaplonPTPMQL.Controllers
 {
     public class VeXeController : Controller
     {
         private readonly MvcMovieContext _context;
+         private StringProcess strPro = new StringProcess();
 
         public VeXeController(MvcMovieContext context)
         {
@@ -52,7 +54,15 @@ namespace baitaplonPTPMQL.Controllers
         {
             ViewData["MaKhachHang"] = new SelectList(_context.KhachHang, "MaKhachHang", "MaKhachHang");
             ViewData["MaNhanVien"] = new SelectList(_context.NhanVien, "MaNhanVien", "MaNhanVien");
-            ViewData["TenXe_BienSo"] = new SelectList(_context.TenXe, "XeID", "XeID");
+            ViewData["TenXe_BienSo"] = new SelectList(_context.TenXe, "XeID", "TenXe_BienSo");
+             var newnhacungcap = "VX001";
+            var countnhacungcap = _context.KhachHang.Count();
+            if (countnhacungcap > 0)
+            {
+                var MaVX = _context.VeXe.OrderByDescending(m => m.MaVe).First().MaVe;
+                newnhacungcap = strPro.AutoGenerateCode(MaVX);
+            }
+            ViewBag.newID = newnhacungcap;
             return View();
         }
 
@@ -71,7 +81,7 @@ namespace baitaplonPTPMQL.Controllers
             }
             ViewData["MaKhachHang"] = new SelectList(_context.KhachHang, "MaKhachHang", "MaKhachHang", veXe.MaKhachHang);
             ViewData["MaNhanVien"] = new SelectList(_context.NhanVien, "MaNhanVien", "MaNhanVien", veXe.MaNhanVien);
-            ViewData["TenXe_BienSo"] = new SelectList(_context.TenXe, "XeID", "XeID", veXe.TenXe_BienSo);
+            ViewData["TenXe_BienSo"] = new SelectList(_context.TenXe, "XeID", "TenXe_BienSo", veXe.TenXe_BienSo);
             return View(veXe);
         }
 

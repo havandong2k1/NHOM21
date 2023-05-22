@@ -7,12 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using baitaplonPTPMQL.Models;
+using baitaplonPTPMQL.Models.Process;
 
 namespace baitaplonPTPMQL.Controllers
 {
     public class TaiXeController : Controller
     {
         private readonly MvcMovieContext _context;
+         private StringProcess strPro = new StringProcess();
 
         public TaiXeController(MvcMovieContext context)
         {
@@ -49,6 +51,14 @@ namespace baitaplonPTPMQL.Controllers
         public IActionResult Create()
         {
             ViewData["TenGioiTinh"] = new SelectList(_context.GioiTinh, "ID", "TenGioiTinh");
+             var newnhacungcap = "TX001";
+            var countnhacungcap = _context.NhanVien.Count();
+            if (countnhacungcap > 0)
+            {
+                var MaTX = _context.TaiXe.OrderByDescending(m => m.MaTaiXe).First().MaTaiXe;
+                newnhacungcap = strPro.AutoGenerateCode(MaTX);
+            }
+            ViewBag.newID = newnhacungcap;
             return View();
         }
 
